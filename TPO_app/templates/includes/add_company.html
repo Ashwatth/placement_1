@@ -2,7 +2,7 @@
 {% include 'includes/messages.html' %}
 {% load bulma_tags %}
 {% load static %}
-
+{% comment %} comment {% endcomment %}
 <link href="{% static '/css/styles.css' %}" rel="stylesheet">
 <title>{% block title %}Add Company{% endblock%}  </title>
 {% block content %}
@@ -40,7 +40,7 @@
                     </div>
                 </div><br>
                 <br>
-
+                {% comment %} button class is created  {% endcomment %}
                 <button type="submit" class="button is-primary is-light"><strong>Add Company</strong></button>
             </form>
         </div>
